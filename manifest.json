@@ -1,0 +1,17 @@
+{
+    "name": "Github Groomer",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Groom github by removing design parts that are kinda distracting",
+    "homepage_url": "https://rubennijhuis.com",
+    "permissions": ["tabs", "*://*/*"],
+    "background": {
+      "page": "index.html"
+    },
+    "content_scripts": [
+      {
+      "matches": ["*://*/*"],
+      "css": ["style.css"]
+      }
+    ]
+  }
