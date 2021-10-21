@@ -1,0 +1,11 @@
+/* Screen selector bottom border */
+.mt-4.position-sticky{border: none !important;}
+
+/* Avatar image */
+.avatar.avatar-user.width-full.border.color-bg-primary{border: none !important; box-shadow: none !important;}
+
+/* Active creen select underline */
+.UnderlineNav-item.selected{border-bottom-color: #58a6ff !important}
+
+/* Public/Private tag */
+.Label.Label--secondary.v-align-middle.ml-1{display: none !important;}
