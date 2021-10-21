@@ -1,5 +1,5 @@
 # Github Groomer
-💈 A chrome extension to make github seem a bit cleaner. Let's remove those distasteful borders and get some modern design in here.
+💈 A chrome extension to make github seem a bit cleaner, more consistent and overall just nicer. Let's remove those distasteful borders and get some modern design in here.
 
 ## Installation
 ```bash
