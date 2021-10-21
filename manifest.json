@@ -1,17 +1,23 @@
 {
     "name": "Github Groomer",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "manifest_version": 2,
     "description": "Groom github by removing design parts that are kinda distracting",
     "homepage_url": "https://rubennijhuis.com",
-    "permissions": ["tabs", "*://*/*"],
+    "icons": { 
+        "128": "icon-128.png" 
+    },
+    "browser_action": {
+        "name": "Cleans your github pages",
+        "default_icon": "icon-128.png"
+    },
     "background": {
-      "page": "index.html"
+        "page": "index.html"
     },
     "content_scripts": [
-      {
-      "matches": ["*://*/*"],
-      "css": ["style.css"]
-      }
+        {
+            "matches": ["*://*/*"],
+            "css": ["style.css"]
+        }
     ]
-  }
+}
